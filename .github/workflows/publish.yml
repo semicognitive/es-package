@@ -18,10 +18,13 @@ jobs:
           deno-version: v1.x
       - name: Run dnt & minify
         run: |
+          npm install -g npm-cli-login
           npm install -g esbuild
           deno task dnt
           deno task minify > ./npm/hpke.min.js
       - working-directory: ./npm
         run: |
-          npm set //registry.npmjs.org/:_authToken=${{secrets.NPM_ACESS_TOKEN}}
+          npm-cli-login -u x -p x -e x@example.com
           npm publish
+        env:
+           NPM_TOKEN: ${{secrets.NPM_ACESS_TOKEN}}
