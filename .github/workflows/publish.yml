@@ -22,7 +22,8 @@ jobs:
           deno task dnt
           deno task minify > ./npm/hpke.min.js
       - working-directory: ./npm
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_ACESS_TOKEN}}" > .npmrc
-          npm publish
+        name: Publish package on NPM 📦
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
