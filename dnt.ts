@@ -12,7 +12,9 @@ await build({
   scriptModule: false,
   test: false,
   importMap: denoconfig.importMap,
-  compilerOptions: {},
+  compilerOptions: {
+    lib: ["es2021", "dom"],
+  },
   shims: {},
   package: {
     name: denoconfig.package.name,
