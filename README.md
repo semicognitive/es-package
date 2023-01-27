@@ -12,5 +12,5 @@ Easily publish to [deno.land/x](https://deno.land/x) and [npm](https://npmjs.com
 - Create a [release](https://github.com/semicognitive/es-package/releases/new)
 
 ### Npm
-- Add a [github action secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets) of [`NPM_ACCESS_TOKEN`](https://docs.npmjs.com/creating-and-viewing-access-tokens#creating-access-tokens)
+- Add a [action secret](https://github.com/semicognitive/es-package/settings/secrets/actions/new) of [`NPM_ACCESS_TOKEN`](https://docs.npmjs.com/creating-and-viewing-access-tokens#creating-access-tokens)
 - Create a [release](https://github.com/semicognitive/es-package/releases/new)
