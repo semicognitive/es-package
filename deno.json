@@ -6,7 +6,6 @@
   },
   "tasks": {
     "dnt": "deno run -A dnt.ts $(git describe --tags $(git rev-list --tags --max-count=1))",
-    "minify": "deno bundle ./mod.ts | esbuild --minify"
   },
   "importMap": "import-map.json",
   "compilerOptions": {
