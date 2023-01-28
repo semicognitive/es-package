@@ -17,7 +17,7 @@ echo "Description: $description";
 echo "Renaming project..."
 
 original_author="semicognitive"
-original_name="es-package"
+original_name="@semicognitive/es-package"
 original_urlname="semicognitive/es-package"
 original_description="A template for creating and publishing an ES module\n\nStart by [using this template](https://github.com/semicognitive/es-package/generate)"
 # for filename in $(find . -name "*.*") 
