@@ -20,4 +20,4 @@ jobs:
         run: |
           deno task dnt
           npm install -g @jsdevtools/npm-publish
-          npm-publish --token=${{ secrets.NPM_TOKEN }} ./npm/package.json
+          npm-publish --token=${{ secrets.NPM_TOKEN }} --access public ./npm/package.json
