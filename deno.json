@@ -1,6 +1,6 @@
 {
   "package": {
-    "name": "es-package",
+    "name": "@semicognitive/es-package",
     "description": "A template for creating and publishing an ES module",
     "github": "semicognitive/es-package"
   },
@@ -20,7 +20,7 @@
   },
   "lint": {
     "files": {
-      "include": ["src/"],
+      "include": ["mod.ts", "dnt.ts", "src/"],
       "exclude": []
     }
   }
