@@ -5,7 +5,7 @@
     "github": "semicognitive/es-package"
   },
   "tasks": {
-    "dnt": "deno run -A dnt.ts $(git describe --tags $(git rev-list --tags --max-count=1))",
+    "dnt": "deno run -A dnt.ts $(git describe --tags $(git rev-list --tags --max-count=1))"
   },
   "importMap": "import-map.json",
   "compilerOptions": {
