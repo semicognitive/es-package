@@ -16,13 +16,8 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - name: Run dnt & minify
+      - name: Publish package on NPM 📦
         run: |
-          npm install -g esbuild
           deno task dnt
-          deno task minify > ./npm/hpke.min.js
-      - working-directory: ./npm
-        name: Publish package on NPM 📦
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          npm install -g @jsdevtools/npm-publish
+          npm-publish --token=${{ secrets.NPM_TOKEN }} ./npm
