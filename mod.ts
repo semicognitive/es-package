@@ -1,1 +1,1 @@
-export { fuzzyapi } from './src/fuzzy.ts';
+export { greet } from './src/example.ts';
