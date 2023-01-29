@@ -16,9 +16,10 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+      - name: Run dnt 🛠️ 
+        run: deno task dnt
       - name: Publish package on NPM 📦
-        run: |
-          deno task dnt
-          npm publish --access public
+        working-directory: ./npm
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
