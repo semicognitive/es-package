@@ -10,6 +10,7 @@
   },
   "importMap": "import-map.json",
   "compilerOptions": {
+    "lib": ["es2021", "dom", "dom.iterable"],
     "strict": true
   },
   "fmt": {
