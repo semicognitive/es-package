@@ -5,11 +5,11 @@
     "github": "semicognitive/es-package"
   },
   "tasks": {
+    "test": "deno test --lock-write --allow-all --parallel test/",
     "dnt": "deno run -A dnt.ts $(git describe --tags $(git rev-list --tags --max-count=1))"
   },
   "importMap": "import-map.json",
   "compilerOptions": {
-    "lib": ["es2021", "dom"],
     "strict": true
   },
   "fmt": {

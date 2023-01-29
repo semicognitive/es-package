@@ -1,10 +1,7 @@
 run = [
     "deno",
-    "run",
-    "--lock=lock.json",
-    "--lock-write",
-    "--allow-all",
-    "mod.ts"
+    "task",
+    "test"
 ]
 
 hidden = [".replit", "replit.nix", ".vscode", ".deno", ".github", ".gitignore", "LICENSE.md", "deno.lock", "dnt.ts"]
