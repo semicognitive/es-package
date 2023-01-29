@@ -1,8 +1,17 @@
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/20548516/215316618-bcb365fa-d4d7-49d8-8832-21ed849e2060.png">
+
 # es-package
 
-A template for creating and publishing an ES module
+The ultimate template for creating and publishing an ES module
 
 Start by [using this template](https://github.com/semicognitive/es-package/generate)
+
+## Why
+- Fast testing and iterating thanks to [Deno](https://deno.land/)
+- Easily import into [Replit](https://replit.com/)
+- I'm dogfooding it - using it [myself](https://github.com/semicognitive/thefuz)
+- Immediately works in Deno, Bun, Node, Cloudflare Workers, etc.
+- Publish to NPM in **_seconds_**
 
 ## Publish
 Easily publish to [deno.land/x](https://deno.land/x) and [npm](https://npmjs.com)
