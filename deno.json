@@ -1,6 +1,6 @@
 {
   "package": {
-    "name": "@semicognitive/es-package",
+    "name": "es-package",
     "description": "A template for creating and publishing an ES module",
     "github": "semicognitive/es-package"
   },
