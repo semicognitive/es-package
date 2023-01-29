@@ -1,8 +1,8 @@
-# es-package
+# thefuz
 
-A template for creating and publishing an ES module
+Using GPT-3 as a back-end, but with Svelte.
 
-Start by [using this template](https://github.com/semicognitive/es-package/generate)
+Made from [this template](https://github.com/semicognitive/es-package/generate)
 
 ## Publish
 Easily publish to [deno.land/x](https://deno.land/x) and [npm](https://npmjs.com)
