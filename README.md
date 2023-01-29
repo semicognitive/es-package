@@ -7,10 +7,10 @@ The ultimate template for creating and publishing an ES module
 Start by [using this template](https://github.com/semicognitive/es-package/generate)
 
 ## Why
-- Fast testing and iterating thanks to [Deno](https://deno.land/)
-- Easily import into [Replit](https://replit.com/)
+- Fast iterating thanks to [Deno](https://deno.land/), for built in Typescript debugging and bundling
+- Easily import into [Replit](https://replit.com/), for an instant dev environment
 - I'm dogfooding it - using it [myself](https://github.com/semicognitive/thefuz)
-- Immediately works in Deno, Bun, Node, Cloudflare Workers, etc.
+- Immediately works for Deno, Bun, Node, Cloudflare Workers, etc.
 - Publish to NPM in **_seconds_**
 
 ## Publish
