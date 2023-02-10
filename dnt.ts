@@ -26,12 +26,11 @@ await build({
     },
     homepage: `https://github.com/${denoconfig.package.github}#readme`,
     license: "MIT",
-    main: "./script/mod.js",
+    main: "./esm/mod.js",
     types: "./types/mod.d.ts",
     exports: {
       ".": {
         "import": "./esm/mod.js",
-        "require": "./script/mod.js",
       },
       "./package.json": "./package.json",
     },
