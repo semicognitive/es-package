@@ -31,6 +31,7 @@ await build({
     exports: {
       ".": {
         "import": "./esm/mod.js",
+        "require": "./script/mod.js",
       },
       "./package.json": "./package.json",
     },
